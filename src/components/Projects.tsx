@@ -6,7 +6,7 @@ const projects = [
     title: "Personalized Memory Assistant System",
     subtitle: "AI Agent with Persistent Memory",
     description: "Built a ChatGPT-like personalized AI agent with persistent long-term memory and session awareness. Implemented confidence-based memory storage, decay, promotion, and conflict resolution using ChromaDB.",
-    tech: ["Python", "ChromaDB", "Ollama", "LLM"],
+    tech: ["Python", "ChromaDB", "Ollama", "LLM", 'Gemini'],
     icon: Brain,
     highlight: "Agentic Workflow",
     date: "Oct 2025",
@@ -35,7 +35,7 @@ const projects = [
     description: "Architected platform connecting 100+ farmers with AI-driven decision support. Led a team of 4 developers in a 24-hour hackathon at UVCE.",
     tech: ["React.js", "Node.js", "ML Integration", "Full Stack"],
     icon: Wheat,
-    highlight: "Hackathon Winner",
+    highlight: "Hackathon",
     date: "Aug 2025",
   },
 ];

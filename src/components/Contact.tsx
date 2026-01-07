@@ -1,5 +1,6 @@
-import { Mail, Linkedin, Github, MapPin } from "lucide-react";
+import { Mail, Linkedin, Github, MapPin, Download } from "lucide-react";
 import { Button } from "./ui/button";
+import resumeFile from "../assests/resume.pdf";
 
 const Contact = () => {
   return (
@@ -30,10 +31,17 @@ const Contact = () => {
                 Say Hello
               </a>
             </Button>
+
+            <Button size="lg" variant="outline" className="gap-2 w-full sm:w-auto" asChild>
+              <a href={resumeFile} download="Sridhar_Resume.pdf">
+                <Download className="w-4 h-4" />
+                Download Resume
+              </a>
+            </Button>
             
             <div className="flex items-center gap-3">
               <a 
-                href="https://linkedin.com/in/sridhars32" 
+                href="https://www.linkedin.com/in/sridhar-s-5a2433283/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors hover:text-primary"
@@ -41,7 +49,7 @@ const Contact = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a 
-                href="https://github.com/sridharsuresh32" 
+                href="https://github.com/SridharSuresh2709" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors hover:text-primary"
