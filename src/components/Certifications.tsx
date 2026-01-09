@@ -25,11 +25,24 @@ const certifications = [
     year: "2025",
     icon: Globe,
   },
+  {
+    title: "Hackathon Participation Certificate - SJBIT",
+    issuer: "SJBIT",
+    year: "2025",
+    icon: Award,
+  },
+  {
+    title: "Hackathon Participation Certificate - Code for Carnage -UVCE",
+    issuer: "UVCE",
+    year: "2025",
+    icon: Award,
+  }
 ];
 
 const badges = [
   { title: "LeetCode 50+ Days Badge", platform: "LeetCode" },
   { title: "Data Navigator Badge", platform: "LeetCode" },
+  {title: "5-Day AI Agents Intensive Course with Google", platform: "Kaggle" }
 ];
 
 const Certifications = () => {
