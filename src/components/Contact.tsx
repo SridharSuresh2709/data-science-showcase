@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, MapPin, Download } from "lucide-react";
+import { Mail, Linkedin, Github, MapPin, Download, Award } from "lucide-react";
 import { Button } from "./ui/button";
 import resumeFile from "../assests/resume.pdf";
 
@@ -55,6 +55,14 @@ const Contact = () => {
                 className="p-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors hover:text-primary"
               >
                 <Github className="w-5 h-5" />
+              </a>
+              <a 
+                href="https://www.kaggle.com/sridhar2004" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-3 rounded-lg bg-secondary hover:bg-secondary/80 transition-colors hover:text-primary"
+              >
+                <Award className="w-5 h-5" />
               </a>
             </div>
           </div>
