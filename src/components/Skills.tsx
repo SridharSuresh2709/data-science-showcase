@@ -9,7 +9,7 @@ const skillCategories = [
   {
     title: "AI & Agents",
     icon: Brain,
-    skills: ["XGBoost", "LightGBM", "CatBoost", "Deep Learning", "PyTorch", "Computer Vision", "Google-ADK", "LLMs"],
+    skills: ["XGBoost", "LightGBM", "CatBoost", "Deep Learning", "PyTorch", "Computer Vision", "Google-ADK", "LLMs" , "RAG"],
   },
   {
     title: "Visualization",

@@ -1,4 +1,4 @@
-import { ExternalLink, Brain, Music, TrendingUp, Wheat } from "lucide-react";
+import { ExternalLink, Brain, Music, TrendingUp, Wheat, FileText } from "lucide-react";
 import { Badge } from "./ui/badge";
 
 const projects = [
@@ -12,14 +12,14 @@ const projects = [
     date: "Oct 2025",
   },
   {
-    title: "SpoMoodAgent",
-    subtitle: "Kaggle × Google AI Agents Course",
-    description: "Developed an AI agent to infer user mood from Spotify listening patterns. Generated personalized music insights and playlist recommendations using Gemini API and Google-ADK.",
-    tech: ["Google-ADK", "Python", "Gemini API", "Spotify"],
-    icon: Music,
-    highlight: "Mood Inference",
-    date: "Nov 2025",
-  },
+  title: "PDF-Chat-RAG",
+  subtitle: "Retrieval-Augmented Generation System",
+  description: "Built a PDF-based conversational AI system that allows users to chat with documents. Implemented chunking, embedding-based retrieval, and LLM grounding to generate accurate, context-aware answers while minimizing context dilution.",
+  tech: ["Python", "RAG", "Vector Database", "LLM", "PDF Processing"],
+  icon: FileText,
+  highlight: "Context-Aware Q&A",
+  date: "2025",
+},
   {
     title: "Amazon ML Challenge 2025",
     subtitle: "Competitive Machine Learning",
