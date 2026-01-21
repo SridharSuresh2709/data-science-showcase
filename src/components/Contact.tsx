@@ -1,6 +1,6 @@
 import { Mail, Linkedin, Github, MapPin, Download, Award } from "lucide-react";
 import { Button } from "./ui/button";
-import resumeFile from "../assests/resume.pdf";
+import resumeFile from "../assests/Sridhar_S_Resume_JAN226.pdf";
 
 const Contact = () => {
   return (
