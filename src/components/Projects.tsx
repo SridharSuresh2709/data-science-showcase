@@ -12,13 +12,22 @@ const projects = [
     date: "Oct 2025",
   },
   {
+  title: "Customer Churn Prediction",
+  subtitle: "End-to-End ML Deployment Project",
+  description: "Built a machine learning model to predict customer churn using real-world telecom-style data. Performed EDA, feature engineering, class imbalance handling, and threshold tuning. Deployed the model as an API using FastAPI and containerized with Docker for cloud deployment.",
+  tech: ["Python", "Scikit-learn", "Pandas", "FastAPI", "Docker", "AWS"],
+  icon: TrendingUp,
+  highlight: "ML Deployment",
+  date: "Jan 2026",
+},
+  {
   title: "PDF-Chat-RAG",
   subtitle: "Retrieval-Augmented Generation System",
   description: "Built a PDF-based conversational AI system that allows users to chat with documents. Implemented chunking, embedding-based retrieval, and LLM grounding to generate accurate, context-aware answers while minimizing context dilution.",
   tech: ["Python", "RAG", "Vector Database", "LLM", "PDF Processing"],
   icon: FileText,
   highlight: "Context-Aware Q&A",
-  date: "2025",
+  date: "2026",
 },
   {
     title: "Amazon ML Challenge 2025",
